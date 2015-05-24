@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/dajsiewykryc" android:title="Urządzenie wykrywalne"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/pokazsparowane" android:title="Urządzenia sparowane"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/serwer" android:title="Pracuj jako serwer"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/klient" android:title="Pracuj jako klient"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
